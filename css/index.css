@@ -240,7 +240,7 @@ footer p {
 }
 @media (max-width: 500px){
 	nav a{
-		margin: 50px;
+		margin: 20px;
 	}
 }
 @media (max-width: 500px){
@@ -252,6 +252,7 @@ footer p {
 @media (max-width: 500px){
 	.billboard{
 		display: flex;
+		flex-direction: column;
 		
 	}
 }
@@ -275,5 +276,31 @@ footer p {
 	.top-nav{
 		display: flex;
 		flex-direction: column-reverse;
+	}
+}
+@media (max-width: 500px){
+	.top-content {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		}
+}
+@media (max-width: 500px){
+	.bottom-content{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: auto;
+	}
+}
+@media (max-width: 500px){
+	address{
+		text-align: center;
+	}
+}
+@media (max-width: 500px){
+	.middle-img{
+		display: flex;
+		width: 50%;
 	}
 }
