@@ -179,3 +179,43 @@ footer p {
 	text-align: center;
 }
 
+@media (max-width: 800px){
+	nav{
+		display: inline-flex;
+	}
+}
+@media (max-width: 800px){
+	.logo{
+		margin:auto; 
+		display: flex;
+	}
+}
+@media (max-width: 800px){
+	nav a{
+		margin: 50px;
+	}
+}
+@media (max-width: 800px){
+	.main-heading{
+		margin: auto;
+		width: 100%;
+	}
+}
+@media (max-width: 800px){
+	.billboard{
+		display: flex;
+		
+	}
+}
+@media (max-width: 800px){
+	.main-heading button{
+		display: flex;
+		margin: auto;
+	}
+}
+@media (max-width: 800px){
+	.main-image{
+		display: none;
+		
+	}
+}
